@@ -4578,6 +4578,9 @@ input[type="button"].btn-block {
   align-items: center;
 }
 
+.bi-cloud-arrow-down{
+padding: 3px; 
+}
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
