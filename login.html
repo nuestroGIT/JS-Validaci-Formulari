@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">  
+	  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge"> 
+
+	  <!-- Favicon -->
+    <link rel="shortcut icon" href="dist/img/favicon.png">
+    <title>Minka - Contracts online platform</title>
+  
+
+    <meta name="description" content="Welcome to the Contracts online platform Minka. Hire people! Make projects! Find solutions!">  
+
+    <!-- CS styles connection -->
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script defer src="/dist/js/validate.js"></script>
+    
+    
+</head>
+
+    <body>
+<!--**************************************EMPIEZA ELCONTENIDO********************************************-->
+  
+              <!--Bootstrap navigation-->
+              <div class="container-fluid bg-secondary h-25"></div>
+                
+                <!--Start Menu1-->
+                <nav class="navbar navbar-expand-lg  sticky-top navbar-light bg-light">
+                  <a href="index.html" class="navbar-brand">
+
+                    <img  src="dist/img/Minka-logo.png" alt="Logo of Mink'a" style="width: 200px;">
+
+                  </a>
+
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          What Minka is?
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#"><i class="bi bi-cloud-arrow-down"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708l2 2z"/>
+                            <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                          </svg></i>Download Business Plan</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      
+                    </ul>
+                    
+
+                      <div class="logReg-btn-group">
+
+                        <button class="btn btn-register btn-outline-warning my-2 my-sm-0" type="button">Sign In</button>
+                    </div>
+                    
+                  </div>
+                </nav>
+
+          
+         <div id="container-form" class="container">
+          <h1 class="head-form">Personal Information</h1>
+          <p>To get started, tell us about yourself.</p>
+          <form method="POST" action="/register.html" id="myFormId" onsubmit="return registerValidate()" name="myForm">
+      
+            <div class="form-row">
+      
+              <div class="form-group col-md-6">
+                <label for="inputName">Legal First Name</label>
+                <input type="text" name="inputFirstName" class="form-control" id="inputFirstName">
+                <div class="invalid-feedback" id="errorFirstName"></div>
+              </div>
+        
+              <div class="form-group col-md-6">
+                <label for="inputLastName">Legal Last Name</label>
+                <input type="lastName" name="inputLastName"  class="form-control" id="inputLastName">
+                <div class="invalid-feedback" id="errorLastName"></div>
+              </div>
+        
+              </div>
+        
+            <div class="form-row">
+      
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="text" name="inputEmail" class="form-control" id="inputEmail">
+              <div class="invalid-feedback" id="errorEmail"></div>
+            </div>
+      
+            <div class="form-group col-md-6">
+              <label for="inputPassword">Password</label>
+              <input type="password" name="inputPassword"  class="form-control" id="inputPassword">
+              <div class="invalid-feedback" id="errorPassword"></div>
+            </div>
+      
+            </div>
+      
+      
+            <div class="form-group">
+            <label for="inputSoSecNum">Social Security Number</label>
+            <input type="text" class="form-control" id="inputSoSecNum">
+            <div class="invalid-feedback" id="errorSoSecNum"></div>
+            </div>
+            <div class="form-row">
+            <div class="form-group col-md-5">
+              <label for="inputCountry">Country</label>
+               <select id="inputCountry" class="form-control">
+              <option selected value=""></option>
+              <option>United States</option>
+              <option>United Kingdom</option>
+              <option>Ireland</option>
+              <option>Spain</option>
+              </select>
+              <div class="invalid-feedback" id="errorCountry"></div>
+            </div>
+            <div class="form-group col-md-5">
+              <label for="inputCity">City</label>
+               <input type="text" class="form-control" id="inputCity">
+               <div class="invalid-feedback" id="errorCity"></div>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZipCode">Zip Code</label>
+              <input type="text" class="form-control" id="inputZipCode">
+              <div class="invalid-feedback" id="errorZipCode"></div>
+            </div>
+            </div>
+            <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+              Read and glad with my crumbs of bread.
+                          </label>
+              <div class="invalid-feedback" id="errorCheck"></div>
+            </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Get Started</button>
+          </form>
+
+
+
+         </div>
+
+   
+            
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--**************************************TERMINA EL CONTENIDO********************************************-->
+
+      <script src="dist/js/jquery-3.2.1.slim.min.js"></script>  
+      <script src="dist/js/popper.min.js"></script>    
+      <script src="dist/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
