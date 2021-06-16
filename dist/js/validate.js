@@ -86,7 +86,7 @@ function registerValidate() {
     }else{
 		return true;
 	}
-}
+};
 
 
 
